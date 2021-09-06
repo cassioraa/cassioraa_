@@ -1,0 +1,120 @@
+body {
+	width: 80%; /* largura da página */
+	max-width: 1800px;
+	margin: auto;   /* define as margens */
+	background: url(bg.png) center;
+	color: #000e5f;
+
+	font-family: sans-serif; /* Fonte sem serifa */
+	line-height: 1.5; /* Espaçamento */
+
+}
+
+main {
+	background: #08080885;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	padding: 20px 40px;
+    margin-top: 40px;
+    border-radius: 15px;
+    color: white;
+}
+
+.first-title, .first-subtitle{
+	text-align: left;
+	margin: 0;
+	color: white;
+}
+
+.concerts {
+	margin: 30px 0px; /*altura esquerda/direita*/
+	text-align: left;
+	width: 100%;
+}
+
+.concerts table {
+	background: #a7a7a7;
+	padding: 10px;
+	border-radius: 15px;
+	margin: 0px auto; /*altura esquerda/direita*/
+	text-align: center;
+	width: 100%;
+}
+
+.but1, .but2, .but3, .but4, .but5 {
+	text-align: center;
+	background: #a7a7a7;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	cursor: pointer;
+}
+
+.but1:hover, .but2:hover, .but3:hover, .but4:hover, .but5:hover {
+	background: white;
+}
+
+
+.but11, .but22, .but33, .but44, .but55{
+	text-align: center;
+	background: black;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	cursor: pointer;
+	color: white;
+	font-weight: 800;
+}
+
+.but11:hover, .but22:hover, .but33:hover, .but44:hover, .but55:hover{
+	background: white;
+	color: black;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	cursor: pointer;
+
+}
+
+.Imagem {
+  border: 5px solid #555;
+  border-radius: 10px;
+
+}
+
+.Imagem:hover {
+  filter: brightness(80%);
+}
+
+.cover {
+  opacity: 70%;
+  border: 5px solid #555;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cover:hover{
+  filter: brightness(80%);
+}
+
+.links {
+	color: white;
+}
+
+.text {
+	background: #08080885;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	padding: 20px 40px;
+    margin-top: 40px;
+    border-radius: 15px;
+    color: white;
+}
